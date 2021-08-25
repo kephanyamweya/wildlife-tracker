@@ -1,22 +1,28 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'org.example'
 version '1.0-SNAPSHOT'
+mainClassName = 'App'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+    implementation 'junit:junit:4.13.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
     implementation "com.sparkjava:spark-template-handlebars:2.7.1"
     implementation 'org.slf4j:slf4j-simple:1.7.32'
+    implementation 'org.sql2o:sql2o:1.6.0'
+    testImplementation 'com.h2database:h2:1.4.200'
+    implementation 'org.postgresql:postgresql:42.2.23.jre7'
+    testImplementation 'junit:junit:4.13.2'
 
-}
 
-test {
-    useJUnitPlatform()
+
 }
