@@ -6,7 +6,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
-public class AnimalsTest {
+public class  AnimalsTest {
 
     @Rule
     public DatabaseRule databaseRule = new DatabaseRule();
