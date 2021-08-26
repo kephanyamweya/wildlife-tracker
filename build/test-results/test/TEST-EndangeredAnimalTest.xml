@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EndangeredAnimalTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-08-25T17:40:30" hostname="kepha-g1" time="1.119">
+<testsuite name="EndangeredAnimalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T05:57:12" hostname="kepha-g1" time="1.55">
   <properties/>
-  <testcase name="findByIdReturnsCorrectInfo" classname="EndangeredAnimalTest" time="0.616"/>
-  <testcase name="deleteAllEntries" classname="EndangeredAnimalTest" time="0.21"/>
-  <testcase name="ensureNameFieldCannotBeEmpty" classname="EndangeredAnimalTest" time="0.0"/>
-  <testcase name="testInstanceOfEndangeredAnimalsClass_true" classname="EndangeredAnimalTest" time="0.0"/>
-  <testcase name="allInstancesAreSaved" classname="EndangeredAnimalTest" time="0.079"/>
-  <testcase name="deleteByID" classname="EndangeredAnimalTest" time="0.109"/>
-  <testcase name="ensureEntryIsUpdatedCorrectly" classname="EndangeredAnimalTest" time="0.101"/>
+  <testcase name="ensureEntryIsUpdatedCorrectly" classname="EndangeredAnimalTest" time="1.55"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
